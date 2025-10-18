@@ -17,7 +17,9 @@ int main(){
     unsigned int SuperPoderA = populacao + (int)area + (int)pib + npturisticos + (int)pibper;
 
     unsigned int SuperPoderB = populacao2 + (int)area2 + (int)pib2 + npturisticos2 + (int)pibper2;
-     
+
+    /*===========================*/
+    
     printf("----Registro carta 1---- \n");
 
     printf("Qual o Estado? \n");
@@ -58,7 +60,7 @@ int main(){
     densipop2 = populacao2 / area2;
     pibper2 = pib2 / populacao2;
 
-    /*=======================*/
+    /*===========================*/
 
     printf("---Carta 1---\n");
     printf("Estado: %s \n", estado);
@@ -81,7 +83,9 @@ int main(){
     printf("Pontos turisticos: %d \n", npturisticos2);
     printf("Densidade Populacional: %.2f\n", densipop2);
     printf("PIB per Capita: %.2f\n", pibper2);
-/*===========================*/
+    
+    /*===========================*/
+    
     printf("------ Comparação das Cartas ------\n");
     printf("(Legenda: 1 = sim, 0 = Não)\n");
 
